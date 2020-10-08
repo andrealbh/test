@@ -525,9 +525,9 @@ Value1 = profile1['valuation']
 
 final = {}
 for s in [strategies1,strategies4,strategies7]:
-	final[s] = {}
+	final[len(s)] = {}
 	for rounds in range(100):
-		final[s][rounds] = Simu(1000,500,num1,P1,Value1,s)
+		final[len(s)][rounds] = Simu(1000,500,num1,P1,Value1,s)
 
 
 
