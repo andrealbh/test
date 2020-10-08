@@ -518,6 +518,6 @@ for rounds in range(100):
 
 
 f4 = open('cdafs4.pkl', 'wb')  
-pickle.dump(profile, f1, -1) 
+pickle.dump(profile, f4, -1) 
 
 
