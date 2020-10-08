@@ -518,7 +518,7 @@ profile1 = pickle.load(f1)
 
     
 num1 = profile1['num']
-P1 = profil1['Truth']
+P1 = profile1['Truth']
 Value1 = profile1['valuation']
 
 
